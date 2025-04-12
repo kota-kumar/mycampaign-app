@@ -63,7 +63,7 @@ function App() {
         <h1 className="text-2xl font-semibold text-center text-blue-800">
           📢 Campaign Information
         </h1>
-  
+       
         <Dropdown
           label="LOB"
           options={Object.keys(campaignData)}
