@@ -89,9 +89,9 @@ function App() {
   
         {selectedCampaignDetails && (
           <CampaignDetails
-            aemLink={selectedCampaignDetails.aemAuthorLink}
-            damLink={selectedCampaignDetails.damLink}
-          />
+          aemLinks={selectedCampaignDetails.aemAuthorLinks || []}
+          damLinks={selectedCampaignDetails.damLinks || []}
+        />        
         )}
       </div>
     </div>
