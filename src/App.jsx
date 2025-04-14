@@ -88,10 +88,18 @@ function App() {
         />
   
         {selectedCampaignDetails && (
-          <CampaignDetails
-          aemLinks={selectedCampaignDetails.aemAuthorLinks || []}
-          damLinks={selectedCampaignDetails.damLinks || []}
-        />        
+       <CampaignDetails
+       aemLinks={
+         Array.isArray(selectedCampaignDetails.aemAuthorLinks)
+           ? selectedCampaignDetails.aemAuthorLinks
+           : [selectedCampaignDetails.aemAuthorLink].filter(Boolean)
+       }
+       damLinks={
+         Array.isArray(selectedCampaignDetails.damLinks)
+           ? selectedCampaignDetails.damLinks
+           : [selectedCampaignDetails.damLink].filter(Boolean)
+       }
+     />   
         )}
       </div>
     </div>
