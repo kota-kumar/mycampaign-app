@@ -3,27 +3,45 @@
         "APAC": [
             {
                 "campaign": "APAC Campaign 1 - AM",
-                "aemAuthorLink": "https://aem.example.com/author/apac/am/campaign1",
-                "damLink": "https://dam.example.com/asset/apac/am/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/apac/am/campaign1",
+                    "https://aem.example.com/author/apac/am/campaign1/page2"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/apac/am/campaign1",
+                    "https://dam.example.com/asset/apac/am/campaign1/extra"
+                ]
             },
             {
                 "campaign": "APAC Campaign 2 - AM",
-                "aemAuthorLink": "https://aem.example.com/author/apac/am/campaign2",
-                "damLink": "https://dam.example.com/asset/apac/am/campaign2"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/apac/am/campaign2"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/apac/am/campaign2"
+                ]
             }
         ],
         "EMEA": [
             {
                 "campaign": "EMEA Campaign 1 - AM",
-                "aemAuthorLink": "https://aem.example.com/author/emea/am/campaign1",
-                "damLink": "https://dam.example.com/asset/emea/am/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/emea/am/campaign1"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/emea/am/campaign1"
+                ]
             }
         ],
         "AMER": [
             {
                 "campaign": "AMER Campaign 1 - AM",
-                "aemAuthorLink": "https://aem.example.com/author/amer/am/campaign1",
-                "damLink": "https://dam.example.com/asset/amer/am/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/amer/am/campaign1"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/amer/am/campaign1"
+                ]
             }
         ]
     },
@@ -31,27 +49,45 @@
         "APAC": [
             {
                 "campaign": "APAC Campaign 1 - PB",
-                "aemAuthorLink": "https://aem.example.com/author/apac/pb/campaign1",
-                "damLink": "https://dam.example.com/asset/apac/pb/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/apac/pb/campaign1"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/apac/pb/campaign1"
+                ]
             },
             {
                 "campaign": "APAC Campaign 2 - PB",
-                "aemAuthorLink": "https://aem.example.com/author/apac/pb/campaign2",
-                "damLink": "https://dam.example.com/asset/apac/pb/campaign2"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/apac/pb/campaign2",
+                    "https://aem.example.com/author/apac/pb/campaign2/alt"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/apac/pb/campaign2",
+                    "https://dam.example.com/asset/apac/pb/campaign2/video"
+                ]
             }
         ],
         "EMEA": [
             {
                 "campaign": "EMEA Campaign 1 - PB",
-                "aemAuthorLink": "https://aem.example.com/author/emea/pb/campaign1",
-                "damLink": "https://dam.example.com/asset/emea/pb/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/emea/pb/campaign1"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/emea/pb/campaign1"
+                ]
             }
         ],
         "AMER": [
             {
                 "campaign": "AMER Campaign 1 - PB",
-                "aemAuthorLink": "https://aem.example.com/author/amer/pb/campaign1",
-                "damLink": "https://dam.example.com/asset/amer/pb/campaign1"
+                "aemAuthorLinks": [
+                    "https://aem.example.com/author/amer/pb/campaign1"
+                ],
+                "damLinks": [
+                    "https://dam.example.com/asset/amer/pb/campaign1"
+                ]
             }
         ]
     }
