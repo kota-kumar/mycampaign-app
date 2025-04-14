@@ -24,12 +24,34 @@
         ],
         "EMEA": [
             {
-                "campaign": "EMEA Campaign 1 - AM",
+                "campaign": "MMR - AM",
                 "aemAuthorLinks": [
-                    "https://aem.example.com/author/emea/am/campaign1"
+                    "https://author-jpmc-am-prod63.adobecqms.net/editor.html/content/jpm-am-aem/global/en/insights/market-insights/market-updates/monthly-market-review.html"
                 ],
                 "damLinks": [
-                    "https://dam.example.com/asset/emea/am/campaign1"
+                    "https://author-jpmc-am-prod63.adobecqms.net/assets.html/content/dam/jpm-am-aem/emea/regional/en/images"
+                ]
+            }
+            {
+                 "campaign": "Guide to Alternatives - AM",
+                "aemAuthorLinks": [
+                    "https://author-jpmc-am-prod63.adobecqms.net/editor.html/content/jpm-am-aem/global/en/insights/market-insights/market-updates/monthly-market-review.html"
+                ],
+                "damLinks": [
+                    "https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/insights/market-insights/guide-to-alternatives/mi-guide-to-alternatives.pdf"
+                ]
+            }
+                   {
+                 "campaign": "Guide to Market UK - AM",
+                "aemAuthorLinks": [
+                    "https://author-jpmc-am-prod63.adobecqms.net/sites.html/content/jpm-am-aem/global/slide-content/gtx/guide-to-the-markets/en/slides/uk"
+                ],
+                "damLinks": [
+                    "https://author-jpmc-am-prod63.adobecqms.net/assetdetails.html/content/dam/jpm-am-aem/global/en/insights/market-insights/guide-to-the-markets/mi-guide-to-the-markets-uk.pdf",
+                    "https://author-jpmc-am-prod63.adobecqms.net/assetdetails.html/content/dam/jpm-am-aem/global/en/insights/market-insights/guide-to-the-markets/mi-guide-to-the-markets-monthly-uk.pdf"
+                    "https://author-jpmc-am-prod63.adobecqms.net/assets.html/content/dam/jpm-am-aem/global/en/insights/market-insights/guide-to-the-markets/mi-guide-to-the-markets-daily-uk.pdf"
+                    "https://author-jpmc-am-prod63.adobecqms.net/assetdetails.html/content/dam/jpm-am-aem/emea/gb/en/institutional/protected/insights/market-insights/mi-guide-to-the-markets-monthly-uk.pdf"
+                    "https://author-jpmc-am-prod63.adobecqms.net/assetdetails.html/content/dam/jpm-am-aem/emea/gb/en/institutional/protected/insights/market-insights/mi-guide-to-the-markets-daily-uk.pdf"
                 ]
             }
         ],
