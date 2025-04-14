@@ -87,20 +87,26 @@ function App() {
           disabled={!region}
         />
   
-        {selectedCampaignDetails && (
-       <CampaignDetails
-       aemLinks={
-         Array.isArray(selectedCampaignDetails.aemAuthorLinks)
-           ? selectedCampaignDetails.aemAuthorLinks
-           : [selectedCampaignDetails.aemAuthorLink].filter(Boolean)
-       }
-       damLinks={
-         Array.isArray(selectedCampaignDetails.damLinks)
-           ? selectedCampaignDetails.damLinks
-           : [selectedCampaignDetails.damLink].filter(Boolean)
-       }
-     />   
-        )}
+       
+      {selectedCampaignDetails && (
+        <CampaignDetails
+          aemLinks={
+            Array.isArray(selectedCampaignDetails.aemAuthorLinks)
+              ? selectedCampaignDetails.aemAuthorLinks
+              : selectedCampaignDetails.aemAuthorLink
+              ? [selectedCampaignDetails.aemAuthorLink]
+              : []
+          }
+          damLinks={
+            Array.isArray(selectedCampaignDetails.damLinks)
+              ? selectedCampaignDetails.damLinks
+              : selectedCampaignDetails.damLink
+              ? [selectedCampaignDetails.damLink]
+              : []
+          }
+        />
+      )}
+
       </div>
     </div>
   );
